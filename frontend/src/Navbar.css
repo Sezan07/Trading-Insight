@@ -1,0 +1,50 @@
+/* Navbar container styles */
+.navbar-container {
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 1rem; /* Padding */
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.5rem; /* Font size */
+    font-weight: bold; /* Font weight */
+  }
+  
+  /* Menu items styles */
+  .menu-items {
+    display: flex; /* Display items inline */
+  }
+  
+  .menu-item {
+    margin-right: 1rem; /* Spacing between items */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  /* User info styles */
+  .user-info {
+    display: flex; /* Display items inline */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .user-info .username {
+    margin-right: 0.5rem; /* Spacing between username and logout button */
+  }
+  
+  /* Logout button styles */
+  .logout-button {
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  /* Fixed navbar styles */
+  .fixed {
+    position: fixed; /* Fixed position */
+    top: 0; /* Position from top */
+    left: 0; /* Position from left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Z-index to ensure it's above other content */
+  }
+  
